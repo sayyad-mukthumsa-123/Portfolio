@@ -1,0 +1,106 @@
+.contact-form {
+  padding: 10px 50px;
+  display: flex;
+  height: fit-content;
+  border: 2px solid #B87614;
+  border-radius: 15px;
+  width: 50%;
+  justify-content: center;
+  margin: 20px;
+}
+
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-right {
+  justify-content: center;
+  position: relative;
+}
+
+.c-right>form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5px;
+  align-items: center;
+
+}
+
+.c-right .user {
+  width: 40rem;
+  height: 2rem;
+  padding: 0.3em;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.c-right .user:hover {
+  border: 2px solid #B87614;
+}
+
+textarea {
+  height: 4rem !important;
+}
+
+.c-blur1 {
+  top: 1rem;
+  left: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form {
+    padding: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 40rem;
+  }
+
+  .c-right .user {
+    width: 16rem;
+  }
+}
+
+.contact-button-container {
+  width: 100%;
+}
+
+.ct-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-button {
+  width: 15%;
+  height: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: large;
+  background: #B87614;
+  color: white;
+  font-weight: bolder;
+}
+
+.contact-button:hover {
+  box-shadow: 10 10 1rem var(--boxShadow);
+  background: white;
+  color: #B87614;
+  width: 17%;
+  height: 45px;
+  font-size: larger;
+}
+
+.container {
+  font-size: x-large;
+}
+
+.contact-text {
+  color: #B87614;
+  font-size: 250%;
+  font-weight: bolder;
+}

@@ -1,5 +1,13 @@
+:root{
+
+  --boxShadow:0px 10px 50px 3px  #B87614;
+}
 .App {
   text-align: center;
+  margin: 5px;
+  background: #010100;
+  color: #04ECF0;
+  width: 100%;
 }
 
 .App-logo {

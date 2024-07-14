@@ -1,0 +1,18 @@
+.skills-sec
+{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.skills-parts
+{
+    
+    padding: 20px;
+    width: 70%;
+}
+.skills-text
+{
+    color: #B87614;
+    font-size:250%;
+    font-weight: bolder;
+}

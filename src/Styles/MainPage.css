@@ -1,0 +1,70 @@
+.main-page {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+#bt {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  /* margin: 35vh; */
+  border: hidden;
+  font-size: x-large;
+}
+
+#bt:hover {
+  background-color: orange;
+  color: white;
+  font-family:Castellar;
+  box-shadow: 10px 20px 90px orange;
+  width: 160px;
+  font-size:180%;
+  height: 160px;
+}
+
+
+.content {
+  padding: 0px;
+  height: fit-content;
+  background-color: #F0F0F0 ;
+color: #333333 ;
+}
+
+@keyframes increaseSize {
+  0% {
+    font-size: 150%;
+    /* Initial font size */
+  }
+
+  100% {
+    font-size: 250%;
+    /* Font size after animation */
+  }
+}
+
+.mp-text {
+  animation: increaseSize 1s infinite alternate;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: orange;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 60%;
+}
+
+.mp-content {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.mp-button {
+  flex:0 0 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
